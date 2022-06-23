@@ -1,5 +1,5 @@
 .navbar {
-	height: 50px;
+	height: 60px;
 	background-color: #003580;
 	display: flex;
 	justify-content: center;
@@ -10,6 +10,7 @@
 	max-width: 1024px;
 	color: white;
 	display: flex;
+	padding-top: 10px;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -17,12 +18,37 @@
 .logo {
 	font-weight: 500;
 	cursor: pointer;
+	font-weight: 800;
+	font-size: 25px;
 }
 
 .navButton {
 	margin-left: 20px;
 	border: none;
-	padding: 5px 10px;
+	padding: 10px 14px;
+	font-weight: 800;
 	cursor: pointer;
 	color: #003580;
+}
+
+.listButton {
+	font-weight: 800;
+	padding: 10px 14px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+}
+.listIcon {
+	align-items: center;
+	padding: 12px 14px;
+	border: none;
+
+	margin-right: 10px;
+	background: none;
+	width: 50px;
+	color: white;
+}
+.navItems .listIcon:hover {
+	background-color: hsla(0, 0%, 100%, 0.1);
+	cursor: pointer;
 }
